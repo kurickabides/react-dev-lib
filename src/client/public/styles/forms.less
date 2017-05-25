@@ -1,0 +1,78 @@
+/*Form page styles*/
+@import "vars";
+@import "mixins";
+
+.textlabel
+{
+	text-align: left;
+	font-size: 14px;
+	margin: 0px;
+  display: block;
+	width: 250px;
+	padding: 2px 5px;
+	float: left;
+}
+
+.textinput
+{
+	width: 300px;
+	height: 22px;
+	border: 1px solid @primary-color;
+}
+
+fieldset
+{
+	padding: 0px;
+	border: none;
+}
+
+fieldset > div
+{
+	border: @background-color 2px solid ;
+  width: 600px;
+}
+
+.submitbutton {
+background-color: @primary-color;
+color: @forground-color;
+align-self: center;
+}
+
+/* Example of issue Cascade avalanches */
+#contactForm
+{
+  float: left;
+  width: 600px;
+  background: @accent-color;
+  color: @forground-color;
+  margin-left: auto;
+  margin-right: auto;
+  border: red 4px solid;
+  .rounded-corners;
+  padding: 5px;
+}
+
+#contactForm  button
+{
+  background-color: @primary-color;
+  color: @forground-color;
+  align-self: center;
+}
+#contactForm div
+{
+	border: none;
+}
+#contactForm textarea
+{
+  background-color: @background-color;
+  color: @forground-color;
+  align-self: center;
+  font-size: 17px;
+  font-weight: bold;
+  font-family:  @font-family
+}
+#contactForm label
+{
+  width: 350px;
+
+}

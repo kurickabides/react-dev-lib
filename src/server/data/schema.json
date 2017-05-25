@@ -1,0 +1,27 @@
+{
+  "Portal":{
+    "id":3467899,
+    "title": "React Template Site",
+    "description":"This wwebsite is where I test and build react components and layouts",
+"author":{
+    "name": "Chad Martin",
+    "contact": "chad.martin@ametritech.com" ,
+    "website":"www.ametritech.com"
+},
+"company":{
+     "id":1,
+"locations":[
+{"id":343807,"name":"Main Campus","address":{"add1":"2295 Townlake Pkwy","add2":"Suite 100","city":"Woodstock","state":"Ga","zip":30188},"phone":"203-284-2818","email":"info@ametritech.com" },
+{"id":343808,"name":"Campus West","address":{"add1":"300 Town Center Pkwy","add2":"3413","city":"Santee","state":"Ca","zip":92071},"phone":"678-772-4308","email":"info@ametritech.com" }
+]
+},
+"copyrights":"Copyrights ©2017: Ametritech - Responsive Website"
+
+  },
+  "users":[
+    {"id":343807,"firstName":"Chad","lastName":"Martin","email":"chad.martin@ametritech.com"},
+    {"id":42880689,"firstName":"Gideon","lastName":"Feil","email":"Maggie15@gmail.com"},
+    {"id":66486541,"firstName":"Arch","lastName":"Rogahn","email":"Jena93@gmail.com"}
+    ]
+
+}

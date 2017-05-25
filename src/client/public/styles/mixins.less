@@ -1,0 +1,24 @@
+@import "vars";
+.rounded-corners(@size: 5px)
+{
+   border-radius:@size;
+  -moz-border-radius: @size;
+  -webkit-border-radius: @size;
+  -o-border-radius: @size;
+}
+.text-shadow(@color:@text-shadow-color)
+{
+text-shadow: @text-shadow @color;
+}
+.gradient(@startColor:#CE2222, @endColor:#C71A1A)
+{
+  background: -webkit-linear-gradient(left, @startColor, @endColor); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, @startColor, @endColor); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, @startColor, @endColor); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, @startColor, @endColor);
+}
+.column-count(@count:1)
+{
+  -webkit-column-count: @count;
+  column-count: @count;
+}

@@ -1,0 +1,76 @@
+/* Topopgrahy File */
+@import "vars";
+@import "mixins";
+
+html{
+  font-family: @font-family;
+  font-size: @font-base-size;
+}
+body {
+    background:@background-color;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: @font-family;
+}
+h1 {
+   font-size: @font-base-size + 10;
+}
+h2 {
+   font-size: @font-base-size + 6;
+   border: red 2px solid;
+   .rounded-corners(10px);
+}
+h3 {
+   font-size: @font-base-size + 4 ;
+}
+header {
+    font-weight: bold;
+}
+/*LESS Nested Rule*/
+nav {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-left: 5px;
+    font-weight: bold;
+
+ul {   // makes the nav ul {....}
+        list-style: none;
+        padding: 0px;
+          li {  // makes the nav ul li {...}
+            display: block;
+            float:left;
+            a {
+                 text-decoration:none;
+                 &:hover{text-decoration:underline;}
+              }
+          }
+    }
+ }
+
+    .navbar-background {
+              .gradient();
+          }
+
+.navlink {
+              height: 35px;
+              margin-right: 10px;
+              font-size: @font-base-size + 4;
+              float: left;
+              padding-top: 12px;
+              color: @forground-color;
+              text-decoration: none;
+          }
+.navlink.active {
+
+              }
+footer {
+                  clear: both;
+                  width: 100%;
+                  background-color: @primary-color;;
+                  margin: 20px 0px 20px;
+                  padding: 5px;
+                  color:@forground-color;
+              }
