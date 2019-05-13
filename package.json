@@ -70,7 +70,6 @@
     "localtunnel": "1.8.1",
     "mocha": "^3.2.0",
     "mongodb": "^2.2.16",
-    "morgan": "~1.7.0",
     "nock": "8.1.0",
     "npm-run-all": "3.1.1",
     "nsp": "2.6.2",
