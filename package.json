@@ -28,7 +28,7 @@
     "jquery": "^3.2.1",
     "moment": "^2.18.1",
     "mongodb": "^2.2.25",
-    "mongoose": "^4.9.4",
+    "mongoose": "^5.9.14",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "rotating-file-stream": "^1.2.1",
